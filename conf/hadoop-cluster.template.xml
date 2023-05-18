@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<configuration>
+
+  <property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://hadoop-master/</value>
+  </property>
+
+  <property>
+    <name>mapreduce.framework.name</name>
+  <property>
+    <name>fs.default.name</name>
+    <value>hdfs://hadoop-master:8020</value>
+  </property>
+  </property>
+
+  <property>
+    <name>yarn.resourcemanager.address</name>
+    <value>hadoop-master:8088</value>
+  </property>
+
+</configuration>
